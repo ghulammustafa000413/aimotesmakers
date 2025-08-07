@@ -53,7 +53,7 @@ const ww = resultOne.filter(q => {
   const metaString = Object.values(q.metadata).join('');
   return metaString === args.fileId;
 });
-console.log("pooo: ", ww);
+// console.log("pooo: ", ww);
 
     return JSON.stringify(ww)
   },
